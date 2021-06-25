@@ -1,0 +1,268 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondery-font: "Raleway", sans-serif;
+  --acsent-color: #2196f3;
+  --wait-color:#ffffff;
+  --text-gray:#757575;
+  --color-names:#212121;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom:0;
+}
+ul,ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img{
+  display: block;
+}
+
+.list {
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.16;
+}
+.link {
+  text-decoration: none;
+}
+.page {
+  color:var(--text-gray);
+  font-family: var(--main-font);
+}
+
+/*index.html*/
+
+/*----- header -------*/
+.conteiner{
+  width: 1170px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.logo {
+  font-family:var(--secondery-font);
+  font-style: normal;
+  font-weight:700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+}
+
+.web {
+  font-family:var(--secondery-font);
+  font-style: normal;
+  font-weight:700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+}
+
+
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color:var(--color-names);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--acsent-color);
+}
+.mil-link ,
+.tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color:var(--text-gray);
+}
+
+.mil-link:hover,
+.mil-link:focus {
+  color: var(--acsent-color);
+}
+
+
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--acsent-color);
+}
+
+/*----- header -------*/
+
+/*-----Эффект риш ----*/
+.hero-taitl {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #000000;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background:#2196f3;
+  color: #ffffff;
+}
+
+/*-----Эффект риш ----*/
+
+/*----Описаниу---*/
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  color:var(--text-gray);
+}
+ .list-title{
+   font-family:var(--main-font);
+   font-weight: 700;
+   font-size: 14px;
+   line-height:1.14;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color:var(--color-names);
+
+ }
+/*----Описаниу---*/
+/*----Занятя---*/
+.picture-title{
+  font-family:var(--main-font);
+  font-weight:700;
+  ont-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color:var(--color-names);
+}
+
+/*----Занятя---*/
+
+/*----Наша команда---*/
+.names-list{
+  font-family:var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color:var(--color-names);
+}
+
+.profession-list{
+
+  font-family:var(--main-font);
+  font-weight:400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color:var(--text-gray);
+}
+
+
+/*----Наша команда---*/
+
+/*----Подвал---*/
+.logo-footer{
+
+  font-family:var(--secondery-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height:1.19;
+  letter-spacing: 0.03em;
+  color:#FFFFFF;
+}
+
+
+.address{
+  font-family:var(--main-font);
+  font-style: normal;
+font-weight:400;
+font-size: 14px;
+line-height:1.7;
+letter-spacing: 0.03em;
+color:#FFFFFF;
+}
+
+.footer-link{
+font-family: var(--main-font);
+font-weight: 400;
+font-size: 14px;
+line-height:1.7;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+/*----Подвал---*/
+
+}
+
+/*index.html*/
+
+/*portfolio.html*/
+
+.btn{
+  cursor:pointer; 
+}
+
+.modal-btn {
+  font-family:var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color:var(--color-names);
+ 
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background:#2196f3;
+  color: #ffffff;
+}
+
+
+.portfolio-list{
+font-family:var(--main-font);
+font-weight:700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.descrip{
+font-family:var(--main-font);
+font-weight: 400;
+font-size: 16px;
+line-height:1.19;
+letter-spacing: 0.03em;
+color:var(--text-gray);
+}
+/*---portfolio-подвал ------ */
