@@ -119,8 +119,17 @@ img {
 /*----- header -------*/
 
 /*-----Эффект риш ----*/
-.hero-conteiner {
+.herov-conteiner {
   margin-bottom: 30px;
+  width: 696px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+}
+.hero-section {
+  background-color: #2f303a;
+  height: 600px;
 }
 .hero-taitl {
   font-weight: 900;
@@ -129,7 +138,7 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #000000;
+  color: var(--wait-color);
 }
 .hero-btn {
   font-weight: 700;
@@ -139,13 +148,18 @@ img {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
   color: #000000;
+}
+.btn-conte {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
 }
 .hero-btn:hover,
 .hero-btn:focus {
   background: #2196f3;
-  color: #ffffff;
+  color: var(--wait-color);
 }
 
 /*-----Эффект риш ----*/
@@ -218,6 +232,7 @@ img {
 }
 .color {
   background: #f5f4fa;
+  height: 648px;
 }
 .names-list {
   font-family: var(--main-font);
@@ -242,6 +257,10 @@ img {
 /*----Наша команда---*/
 
 /*----Подвал---*/
+.footer-color {
+  background-color: #2f303a;
+  height: 252px;
+}
 .logo-footer {
   font-family: var(--secondery-font);
   font-weight: 700;
