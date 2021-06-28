@@ -5,6 +5,7 @@
   --wait-color: #ffffff;
   --text-gray: #757575;
   --color-names: #212121;
+  --color-shadow:box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 h1,
 h2,
@@ -138,7 +139,7 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--wait-color);
+  color:var(--wait-color);
 }
 .hero-btn {
   font-weight: 700;
@@ -148,7 +149,8 @@ img {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #000000;
+  color:var(--wait-color);
+   background: #0e83e2;
 }
 .btn-conte {
   display: flex;
@@ -158,8 +160,8 @@ img {
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  background: #2196f3;
-  color: var(--wait-color);
+  background: #2196F3;
+  color:var(--wait-color);
 }
 
 /*-----Эффект риш ----*/
@@ -220,6 +222,30 @@ img {
 .div-conteiners {
   padding-top: 94px;
 }
+
+.img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  
+}
+.img-cart {
+  outline: 1px solid var(--color-shadow)
+
+}
+.list-cart {
+  padding-top: 30px;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 30px;
+  
+}
+.cart {
+  background: #FFFFFF;
+  box-shadow: var(--color-shadow);
+  border-radius: 0px 0px 4px 4px;
+
+}
 .picture-conteiner {
   display: flex;
   flex-wrap: wrap;
@@ -227,6 +253,7 @@ img {
   margin-top: -30px;
 }
 .img-contein {
+  flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -242,6 +269,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-names);
+  margin-bottom: 10px;
 }
 
 .profession-list {
@@ -257,9 +285,11 @@ img {
 /*----Наша команда---*/
 
 /*----Подвал---*/
+
 .footer-color {
   background-color: #2f303a;
   height: 252px;
+  padding-top: 60px;
 }
 .logo-footer {
   font-family: var(--secondery-font);
@@ -268,6 +298,7 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #ffffff;
+  display: flex;
   margin-bottom: 20px;
 }
 
@@ -279,7 +310,9 @@ img {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #ffffff;
+  display: flex;
   margin-bottom: 9px;
+ 
 }
 
 .footer-link {
@@ -290,6 +323,8 @@ img {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 9px;
+   display: flex;
+ 
 }
 
 /*----Подвал---*/
@@ -303,10 +338,19 @@ img {
   margin-left: -30px;
   margin-top: -30px;
 }
+ .footer-margin{
+   margin-top: 94px;
+ }
 .img-conteiner {
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
+}
+.list-carts {
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
 }
 .btn-conteiner {
   display: flex;
@@ -346,6 +390,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+  margin-bottom: 4px;
 }
 .descrip {
   font-family: var(--main-font);
