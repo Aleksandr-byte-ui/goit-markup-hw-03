@@ -221,6 +221,7 @@ img {
 /*----Наша команда---*/
 .div-conteiners {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .img{
@@ -338,8 +339,10 @@ img {
   margin-left: -30px;
   margin-top: -30px;
 }
- .footer-margin{
-   margin-top: 94px;
+ .portfolio-conte {
+   padding-bottom: 94px;
+   
+
  }
 .img-conteiner {
   flex-basis: calc((100% - 90px) / 3);
@@ -361,6 +364,7 @@ img {
   display: flex;
   margin-right: 8px;
   margin-bottom: 50px;
+
 }
 
 .btn {
@@ -375,6 +379,9 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-names);
+    background: #F5F4FA;
+   border-radius: 4px;
+   
 }
 
 .modal-btn:hover,
