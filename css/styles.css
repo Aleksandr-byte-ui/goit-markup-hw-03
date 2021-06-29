@@ -7,6 +7,13 @@
   --color-names: #212121;
   --color-shadow:box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -39,6 +46,7 @@ img {
 .page {
   color: var(--text-gray);
   font-family: var(--main-font);
+  margin: 0;
 }
 
 /*index.html*/
@@ -51,8 +59,8 @@ img {
   padding-right: 15px;
 }
 .header {
-  margin-top: 24px;
-  margin-bottom: 25px;
+  padding-top:  24px;
+  padding-bottom:  25px;
 }
 .header-conteiner {
   display: flex;
@@ -122,15 +130,15 @@ img {
 /*-----Эффект риш ----*/
 .herov-conteiner {
   margin-bottom: 30px;
-  width: 696px;
-  height: 120px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 200px;
+  
+  
 }
 .hero-section {
   background-color: #2f303a;
-  height: 600px;
+  padding-bottom: 200px;
+  padding-top: 200px;
 }
 .hero-taitl {
   font-weight: 900;
@@ -153,6 +161,10 @@ img {
    background: #0e83e2;
 }
 .btn-conte {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -175,10 +187,16 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.list-li{
+  box-sizing: border-box;
+  width: 270px;
+  Height:75px;
+
+}
 .description {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.4;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-gray);
   margin-right: 30px;
@@ -195,20 +213,23 @@ img {
   margin-right: 30px;
 }
 /*----Описаниу---*/
-/*----Занятя---*/
-.pic-conteiners {
-  margin-bottom: 94px;
-}
+/*----Занятияе---*/
+
 .picture-contein {
   display: flex;
+}
+
 }
 .contein:not(:last-child) {
   margin-right: 30px;
 }
 .picture-title {
+  box-sizing: border-box;
+  width: 376px;
+  height: 42px;
   font-family: var(--main-font);
   font-weight: 700;
-  ont-size: 36px;
+  font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
