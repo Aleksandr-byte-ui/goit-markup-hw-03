@@ -217,6 +217,8 @@ img {
 
 .picture-contein {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 }
@@ -225,24 +227,46 @@ img {
 }
 .picture-title {
   box-sizing: border-box;
-  width: 376px;
-  height: 42px;
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--color-names);
-  margin-bottom: 50px;
+   
+  
 }
-
+.picture-con{
+  
+padding-bottom: 94px;
+}
+.sect-title{
+  width: 376px;
+  height: 42px
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px; 
+  
+}
 /*----Занятя---*/
 
 /*----Наша команда---*/
 .div-conteiners {
   padding-top: 94px;
   padding-bottom: 94px;
+  background: #f5f4fa;
+  height: 648px;
+}
+.comanda{
+ width: 264px;
+ height: 42px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px; 
 }
 
 .img{
@@ -251,7 +275,7 @@ img {
   height: auto;
   
 }
-.img-cart {
+img-cart {
   outline: 1px solid var(--color-shadow)
 
 }
@@ -263,26 +287,26 @@ img {
   
 }
 .cart {
+  width: 270px;
+   height: 368px;
   background: #FFFFFF;
-  box-shadow: var(--color-shadow);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-
 }
+
 .picture-conteiner {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
+  
 }
 .img-contein {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
-.color {
-  background: #f5f4fa;
-  height: 648px;
-}
+
 .names-list {
   font-family: var(--main-font);
   font-weight: 500;
@@ -310,9 +334,15 @@ img {
 
 .footer-color {
   background-color: #2f303a;
-  height: 252px;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
+.log-foot{
+  width: 145px;
+  height: 31px;
+  margin-bottom: 20px;
+}
+
 .logo-footer {
   font-family: var(--secondery-font);
   font-weight: 700;
@@ -321,10 +351,13 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff;
   display: flex;
-  margin-bottom: 20px;
+
 }
 
+
 .address {
+  width: 231px;
+  height: 21px;
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 400;
@@ -338,6 +371,8 @@ img {
 }
 
 .footer-link {
+  width: 231px;
+  height: 21px;
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
@@ -362,6 +397,7 @@ img {
 }
  .portfolio-conte {
    padding-bottom: 94px;
+   padding-top: 94px;
    
 
  }
