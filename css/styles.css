@@ -421,7 +421,9 @@ img-cart {
   margin-bottom: 50px;
 
 }
-
+.header-border{
+  border: 1px solid #ECECEC;
+}
 .btn {
   cursor: pointer;
  
@@ -429,7 +431,9 @@ img-cart {
  .button {
    position: absolute;
 }
-
+.btn-tit{
+ display: none
+}
 .modal-btn {
   font-family: var(--main-font);
   font-weight: 500;
