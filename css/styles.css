@@ -70,7 +70,7 @@ img {
   margin-right: 50px;
 }
 .auth-nav {
-  margin: auto;
+  margin-left:auto;
 }
 .mil-link {
   margin-right: 50px;
@@ -233,23 +233,14 @@ img {
   line-height: 1.17;
   text-align: center;
   color: var(--color-names);
-   
+   margin-bottom: 50px; 
   
 }
 .picture-con{
   
 padding-bottom: 94px;
 }
-.sect-title{
-  width: 376px;
-  height: 42px
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px; 
-  
-}
+
 /*----Занятя---*/
 
 /*----Наша команда---*/
@@ -258,15 +249,6 @@ padding-bottom: 94px;
   padding-bottom: 94px;
   background: #f5f4fa;
   height: 648px;
-}
-.comanda{
- width: 264px;
- height: 42px;
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px; 
 }
 
 .img{
@@ -335,11 +317,7 @@ img-cart {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.log-foot{
-  width: 145px;
-  height: 31px;
-  margin-bottom: 20px;
-}
+
 
 .logo-footer {
   font-family: var(--secondery-font);
@@ -349,9 +327,9 @@ img-cart {
   letter-spacing: 0.03em;
   color: #ffffff;
   display: flex;
+   margin-bottom: 20px;
 
 }
-
 
 .address {
   width: 231px;
@@ -397,7 +375,6 @@ img-cart {
    padding-bottom: 94px;
    padding-top: 94px;
    
-
  }
 .img-conteiner {
   flex-basis: calc((100% - 90px) / 3);
@@ -414,19 +391,18 @@ img-cart {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .btn-cont:not(:last-child) {
   display: flex;
   margin-right: 8px;
-  margin-bottom: 50px;
-
 }
 .header-border{
-  border: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
 }
 .btn {
   cursor: pointer;
- 
+
 }
  .button {
    position: absolute;
@@ -446,16 +422,13 @@ img-cart {
    border-radius: 4px;
    padding: 6px 22px 6px 22px;
    display: flex;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px
-  
-   
    
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background: #2196f3;
+  background: #2196f3;box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   color: #ffffff;
 }
 
